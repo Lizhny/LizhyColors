@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="cl1">#70f3ff</color>
+    <color name="cl2">#44cef6</color>
+    <color name="cl3">#3eede7</color>
+    <color name="cl4">#177cb0</color>
+    <color name="cl5">#065279</color>
+    <color name="cl6">#003472</color>
+    <color name="cl7">#4b5cc4</color>
+    <color name="cl8">#a1afc9</color>
+    <color name="cl9">#2e4e7e</color>
+    <color name="cl10">#3b2e7e</color>
+    <color name="cl11">#4a4266</color>
+    <color name="cl12">#426666</color>
+    <color name="cl13">#425066</color>
+    <color name="cl14">#574266</color>
+    <color name="cl15">#8d4bbb</color>
+    <color name="cl16">#815463</color>
+    <color name="cl17">#815476</color>
+    <color name="cl18">#4c221b</color>
+    <color name="cl19">#003371</color>
+    <color name="cl20">#56004f</color>
+    <color name="cl21">#801dae</color>
+    <color name="cl22">#4c8dae</color>
+    <color name="cl23">#b0a4e3</color>
+    <color name="cl24">#edd1d8</color>
+    <color name="cl25">#e4c6d0</color>
+    <color name="cl26">#ff461f</color>
+    <color name="cl27">#ff2d51</color>
+    <color name="cl28">#f36838</color>
+    <color name="cl29">#ed5736</color>
+    <color name="cl30">#ff4777</color>
+    <color name="cl31">#f00056</color>
+    <color name="cl32">#ffb3a7</color>
+    <color name="cl33">#f47983</color>
+    <color name="cl34">#db5a6b</color>
+    <color name="cl35">#c93756</color>
+    <color name="cl36">#f9906f</color>
+    <color name="cl37">#f05654</color>
+    <color name="cl38">#ff2121</color>
+    <color name="cl39">#f20c00</color>
+    <color name="cl40">#8c4356</color>
+    <color name="cl41">#c83c23</color>
+    <color name="cl42">#9d2933</color>
+    <color name="cl43">#ff4c00</color>
+    <color name="cl44">#ff4e20</color>
+    <color name="cl45">#f35336</color>
+    <color name="cl46">#dc3023</color>
+    <color name="cl47">#ff3300</color>
+    <color name="cl48">#cb3a56</color>
+    <color name="cl49">#a98175</color>
+    <color name="cl50">#b36d61</color>
+    <color name="cl51">#ef7a82</color>
+    <color name="cl52">#ff0097</color>
+    <color name="cl53">#ffffff</color>
+
+
+</resources>

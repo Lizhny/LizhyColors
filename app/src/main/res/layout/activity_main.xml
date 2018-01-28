@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="changeColor">
+
+    <TextView
+        android:id="@+id/tv_colorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="32dp"
+        android:gravity="end"
+        android:textColor="@color/精白"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_colorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/精白"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_colorName" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="3dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/精白"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_colorGreenValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pb_colorAlphaValue" />
+
+    <ProgressBar
+        android:id="@+id/pb_colorAlphaValue"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="24dp"
+        android:max="255"
+        app:layout_constraintBottom_toTopOf="@+id/pb_colorRedValue"
+        app:layout_constraintStart_toEndOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/tv_colorAlphaValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/精白"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_colorAlphaValue"
+        app:layout_constraintStart_toEndOf="@+id/pb_colorAlphaValue"
+        app:layout_constraintTop_toTopOf="@+id/pb_colorAlphaValue" />
+
+    <ProgressBar
+        android:id="@+id/pb_colorRedValue"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="32dp"
+        android:max="255"
+        app:layout_constraintBottom_toTopOf="@+id/pb_colorBlueValue"
+        app:layout_constraintStart_toStartOf="@+id/pb_colorAlphaValue" />
+
+    <TextView
+        android:id="@+id/tv_colorRedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/精白"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_colorRedValue"
+        app:layout_constraintStart_toEndOf="@+id/pb_colorRedValue"
+        app:layout_constraintTop_toTopOf="@+id/pb_colorRedValue" />
+
+    <ProgressBar
+        android:id="@+id/pb_colorBlueValue"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="32dp"
+        android:max="255"
+        app:layout_constraintBottom_toTopOf="@+id/pb_colorGreenValue"
+        app:layout_constraintStart_toStartOf="@+id/pb_colorRedValue" />
+
+    <TextView
+        android:id="@+id/tv_colorBlueValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/精白"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_colorBlueValue"
+        app:layout_constraintStart_toEndOf="@+id/pb_colorBlueValue"
+        app:layout_constraintTop_toTopOf="@+id/pb_colorBlueValue" />
+
+    <ProgressBar
+        android:id="@+id/pb_colorGreenValue"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="100dp"
+        android:max="255"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/pb_colorBlueValue" />
+
+    <TextView
+        android:id="@+id/tv_colorGreenValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/精白"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pb_colorGreenValue"
+        app:layout_constraintStart_toEndOf="@+id/pb_colorGreenValue"
+        app:layout_constraintTop_toTopOf="@+id/pb_colorGreenValue" />
+</android.support.constraint.ConstraintLayout>
