@@ -1,10 +1,7 @@
 package com.lizhy.colors.constant;
 
-import android.support.annotation.ColorInt;
-
 import java.util.Random;
 
-import com.lizhy.colors.R;
 
 
 /**
