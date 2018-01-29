@@ -6,13 +6,12 @@ package com.lizhy.colors.utils
  */
 class LizhyUtil {
     companion object {
-     fun int2HexString(b: Int): String {
-        var hex = Integer.toHexString(b)
-        if (hex.length == 1) {
-            hex = '0' + hex
+        fun int2HexString(b: Int): String {
+            var hex = Integer.toHexString(b)
+            if (hex.length == 1) {
+                hex = '0' + hex
+            }
+            return hex.toUpperCase()
         }
-        return hex.toUpperCase()
-    }
-
     }
 }
